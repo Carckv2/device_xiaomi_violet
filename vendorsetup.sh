@@ -12,4 +12,8 @@ git clone --depth=1 https://github.com/DrtSinX98/android_prebuilts_clang_host_li
 
 git clone https://github.com/AICP/system_core_old.git -b ten system/core
 
+export ARCH=arm64
+export KBUILD_BUILD_HOST="nekokawai"
+export KBUILD_BUILD_USER="ninja"
+
 #VT-KT-Taken-From-Pixel-Experience
