@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_violet.mk
+    $(LOCAL_DIR)/aicp_violet.mk
 
 COMMON_LUNCH_CHOICES := \
     aicp_violet-userdebug \
