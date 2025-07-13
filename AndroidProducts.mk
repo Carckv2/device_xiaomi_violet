@@ -9,5 +9,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_violet-userdebug \
-    aosp_violet-user
+    aicp_violet-userdebug \
+    aicp_violet-user
