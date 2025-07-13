@@ -24,7 +24,6 @@ rm -rf system/core
 # fix-aicp-system-core
 git clone https://github.com/AICP/system_core_old.git -b q10.0 system/core
 
-export ARCH=arm64
 export KBUILD_BUILD_HOST="nekokawai"
 export KBUILD_BUILD_USER="ninja"
 
