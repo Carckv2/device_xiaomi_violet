@@ -11,10 +11,18 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common Aicp stuff.
 $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
+# Inherit some common Micro-Gapss stuff.
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
+GAPPS_VARIANT := micro
 TARGET_INCLUDE_STOCK_ARCORE := true
+
+GAPPS_FORCE_BROWSER_OVERRIDES := true
+GAPPS_FORCE_DIALER_OVERRIDES := true
+GAPPS_PACKAGE_OVERRIDES := Chrome
+GAPPS_FORCE_MATCHING_DPI := true
+GAPPS_FORCE_MMS_OVERRIDES := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aicp_violet

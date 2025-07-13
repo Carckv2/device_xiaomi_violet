@@ -10,7 +10,7 @@ git clone --depth=1 https://github.com/DrtSinX98/android_prebuilts_clang_host_li
 
 #fix-aicp-system-core
 
-git clone https://github.com/AICP/system_core_old.git -b ten system/core
+git clone https://github.com/AICP/system_core_old.git -b q10.0 system/core
 
 export ARCH=arm64
 export KBUILD_BUILD_HOST="nekokawai"
