@@ -1,10 +1,9 @@
-rm - rf vendor/xiaomi/violet
+rm -rf vendor/xiaomi/violet
 
 # Vendor tree
 git clone https://github.com/PixelExperience-Blobs/vendor_xiaomi_violet.git -b ten vendor/xiaomi/violet
 
 rm -rf vendor/xiaom-firmware/violet
-
 
 # Firmware
 git clone git@github.com:Carckv2/Vendor_Xiaomi-Firmware_Violet.git -b ten vendor/xiaom-firmware/violet
