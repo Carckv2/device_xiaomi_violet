@@ -8,6 +8,7 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
+
 # Inherit some common Aicp stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 

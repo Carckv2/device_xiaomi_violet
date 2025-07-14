@@ -223,3 +223,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # Inherit from the proprietary version
 -include vendor/xiaomi/violet/BoardConfigVendor.mk
 -include vendor/extra/product.mk
+-include vendor/aeonax/ANXCamera/BoardConfigCommonAnx.mk
