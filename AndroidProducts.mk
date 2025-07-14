@@ -6,8 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_violet.mk
+    $(LOCAL_DIR)/lineage_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_violet-userdebug \
-    aicp_violet-user
+    lineage_violet-eng \
+    lineage_violet-userdebug \
+    lineage_violet-user

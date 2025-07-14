@@ -16,12 +16,7 @@ git clone --depth=1 https://github.com/PixelExperience-Devices/kernel_xiaomi_vio
 rm -rf  prebuilts/clang/host/linux-x86/clang-6443078
 
 # clang
-git clone --depth=1 https://github.com/DrtSinX98/android_prebuilts_clang_host_linux-x86_clang-6443078 prebuilts/clang/host/linux-x86/clang-6443078
-
-rm -rf system/core
-
-# fix-aicp-system-core
-git clone https://github.com/AICP/system_core_old.git -b q10.0 system/core
+git clone https://gitlab.com/Joker-V2/prebuilts_clang_host_linux-x86_clang-r498229.git prebuilts/clang/host/linux-x86/clang-r498229 --depth=1
 
 export KBUILD_BUILD_HOST="nekokawai"
 export KBUILD_BUILD_USER="ninja"
