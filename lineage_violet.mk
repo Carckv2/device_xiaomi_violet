@@ -9,7 +9,7 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 
-# Inherit some common Aicp stuff.
+# Inherit some common Crdroid stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit some common Micro-Gapss stuff.
