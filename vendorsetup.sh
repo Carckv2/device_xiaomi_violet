@@ -5,7 +5,7 @@ git clone -b master https://github.com/karthik558/vendor_ANXCamera vendor/aeonax
 git clone https://github.com/PixelExperience-Blobs/vendor_xiaomi_violet.git -b ten vendor/xiaomi/violet 
 
 # Firmware
-git clone git@github.com:Carckv2/Vendor_Xiaomi-Firmware_Violet.git -b ten vendor/xiaomi-firmware/violet
+git clone https://github.com/Carckv2/Vendor_Xiaomi-Firmware_Violet.git -b ten vendor/xiaomi-firmware/violet
 
 # Kernel tree
 git clone --depth=1 https://github.com/PixelExperience-Devices/kernel_xiaomi_violet.git -b ten kernel/xiaomi/violet
