@@ -14,7 +14,7 @@ git clone --depth=1 https://github.com/PixelExperience-Devices/kernel_xiaomi_vio
 git clone https://gitlab.com/Joker-V2/prebuilts_clang_host_linux-x86_clang-r498229.git prebuilts/clang/host/linux-x86/clang-r498229 --depth=1
 
 #  hardware/xiaomi
-git clone -b lineage-17.1 https://github.com/LineageOS/android_hardware_xiaomi.git -b ten hardware/xiaomi
+git clone -b lineage-17.1 https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
 
 #  vendor/lineage-priv/keys
 git clone -b 10 https://github.com/Carckv2/opengapps.git vendor/lineage-priv/keys
